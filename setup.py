@@ -13,7 +13,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
 
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=['src'],
     python_requires=">=3.6",
 )
